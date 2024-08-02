@@ -40,6 +40,7 @@
         // 👇 You may clone this repository to start with your own dotfiles
         "dotfiles.repository": "https://github.com/workoho/devcontainer-dotfiles.git",
 			  "debug.openDebug": "neverOpen",
+        "editor.formatOnSave": false,
 			  "editor.formatOnType": true,
 			  "editor.formatOnPaste": true,
 			  "editor.mouseWheelZoom": true,
@@ -78,7 +79,10 @@
           }
         },
 			  "window.zoomLevel": 0,
-			  "workbench.iconTheme": "vscode-icons"
+			  "workbench.iconTheme": "vscode-icons",
+        "[markdown]": {
+          "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+        }
 			},
 
       // 👇 Add the IDs of extensions you want installed when the container is created.
