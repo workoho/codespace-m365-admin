@@ -123,7 +123,10 @@
         // Azure related extensions
         "ms-vscode.azurecli"
       ]
-		}
+		},
+    "dotfiles": {
+      "repository": "https://github.com/workoho/devcontainer-dotfiles.git"
+    }
 	},
 
 	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
