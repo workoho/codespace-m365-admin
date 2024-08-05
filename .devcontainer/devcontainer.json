@@ -26,8 +26,10 @@
       "version": "latest"
     },
 
-    // dotfiles for Codespaces only
+    // Pre-configured dotfiles for Codespaces only (see below for Dev Containers)
+    // Note that dotfiles configured in your GitHub profile will take precedence.
     "ghcr.io/jpawlowski/devcontainer-features/codespace-dotfiles:1": {
+      // 👇 You may clone this repository to start with your own dotfiles
       "repository": "https://github.com/workoho/devcontainer-dotfiles.git"
     }
   },
@@ -43,7 +45,7 @@
       // 👇 Configure VS Code specific settings.
       "settings": {
         // 👇 You may clone this repository to start with your own dotfiles
-        "dotfiles.repository": "https://github.com/workoho/devcontainer-dotfiles.git", // Only works for Dev Containers
+        "dotfiles.repository": "https://github.com/workoho/devcontainer-dotfiles.git", // Only works for Dev Containers, not in Codespaces
 			  "debug.openDebug": "neverOpen",
         "editor.formatOnSave": false,
 			  "editor.formatOnType": true,
