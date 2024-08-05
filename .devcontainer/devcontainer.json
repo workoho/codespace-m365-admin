@@ -24,6 +24,11 @@
     // GitHub CLI
     "ghcr.io/devcontainers/features/github-cli:1": {
       "version": "latest"
+    },
+
+    // dotfiles for Codespaces only
+    "ghcr.io/jpawlowski/devcontainer-features/codespace-dotfiles:1": {
+      "repository": "https://github.com/workoho/devcontainer-dotfiles.git"
     }
   },
 
@@ -38,7 +43,7 @@
       // 👇 Configure VS Code specific settings.
       "settings": {
         // 👇 You may clone this repository to start with your own dotfiles
-        "dotfiles.repository": "https://github.com/workoho/devcontainer-dotfiles.git",
+        "dotfiles.repository": "https://github.com/workoho/devcontainer-dotfiles.git", // Only works for Dev Containers
 			  "debug.openDebug": "neverOpen",
         "editor.formatOnSave": false,
 			  "editor.formatOnType": true,
