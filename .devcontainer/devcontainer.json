@@ -31,7 +31,10 @@
     "ghcr.io/jpawlowski/devcontainer-features/codespace-dotfiles:1": {
       // 👇 You may clone this repository to start with your own dotfiles
       "repository": "https://github.com/workoho/devcontainer-dotfiles.git"
-    }
+    },
+
+    // Extension Dependencies
+    "ghcr.io/devcontainers-contrib/features/shfmt:1": {}
   },
 
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
@@ -128,7 +131,10 @@
         "redhat.vscode-yaml",
 
         // Azure related extensions
-        "ms-vscode.azurecli"
+        "ms-vscode.azurecli",
+
+        // VS Code related extensions
+        "vscode-icons-team.vscode-icons"
       ]
 		},
     "dotfiles": {
