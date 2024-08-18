@@ -48,7 +48,7 @@
       // 👇 Configure VS Code specific settings.
       "settings": {
         // 👇 You may clone this repository to start with your own dotfiles
-        // "dotfiles.repository": "https://github.com/workoho/devcontainer-dotfiles.git", // Only works for Dev Containers, not in Codespaces
+        "dotfiles.repository": "https://github.com/workoho/devcontainer-dotfiles.git", // Only works for Dev Containers, not in Codespaces
 			  "debug.openDebug": "neverOpen",
         "editor.formatOnSave": false,
 			  "editor.formatOnType": true,
